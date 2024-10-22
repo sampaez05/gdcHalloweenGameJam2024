@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class TitleScreen : MonoBehaviour
 {
+
+    public void openGame(){
+        SceneManager.LoadScene("CandySelectionScreen");
+    }
+
     public void openRules(){
         SceneManager.LoadScene("RulesScreen");
     }
